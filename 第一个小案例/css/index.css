@@ -1,0 +1,245 @@
+
+* @Author: 宋学平
+* @Date:   2018-09-09 20:45:33
+* @Last Modified by:   宋学平
+* @Last Modified time: 2018-09-14 17:06:00
+*/
+* {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+body {
+	background-color: #ffffff;
+	height: 5000px;
+}
+/* 顶部开始 */
+.header {
+	background-color: #ffffff;
+	overflow: hidden;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.top {
+	width: 1200px;
+	margin: 0 auto;
+}
+.logo {
+	top: 0;
+	float: left;
+}
+.nav {
+	float: right;
+}
+.nav li {
+	float: left;
+	line-height: 100px;
+	margin: 0 30px;
+}
+.nav a {
+	text-decoration: none;
+	color: #333333;
+
+}
+.nav a:hover {
+	color: #2288f6;
+}
+/* 顶部结束 */
+/* banner开始 */
+.banner {
+	height: 620px;
+	background: url(../images/banner.png) no-repeat center;
+	margin: 100px auto 0;
+	position: relative;
+}
+/* 切换点制作 */
+.dian {
+	width: 64px;
+	height: 12px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -32px;
+	cursor: default;
+
+}
+.dian li {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #e7e8ec;
+	display: inline-block;
+	margin: 0 3px;
+	cursor: pointer;
+
+}
+.dian li.dian-one {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #e7e8ec;
+	background-color: rgba(0,0,0,0);
+}
+/* 小点结束 */
+/* banner结束 */
+/* 我的服务开始 */
+.service {
+	background-color: #fafafa;
+	padding-top: 100px;
+}
+.service-hd {
+	width: 1000px;
+	height: 150px;
+	border-top: 1px solid #cccccc;
+	margin: 0 auto;
+	/* margin-top: 100px; */
+}
+.service-hd img {
+	display: block;
+	margin: -20px auto 0;
+}
+.service-hd p {
+	color: #666666;
+	font-size: 14px;
+	text-align: center;
+}
+.service-bd  ul{
+	width: 1060px;
+	overflow: hidden;
+	margin: 0 auto 140px;/* 控制与经典案例的距离 */
+	border: 1px solid #e7e8e9;
+	padding: 0;
+}
+.service-bd li {
+	height: 510px;
+	width: 320px;
+	float: left;
+	background-color: #ffffff;
+
+
+}
+.marketing {
+	margin: 0 50px;/* 把三个盒子隔开 */
+}
+.service-bd img {
+	display: block;
+	margin: 42px auto 0;
+}
+.service-bd h3 {
+	margin: 45px 110px 21px;
+	font-weight: normal;
+}
+.service-bd h3.seller-media {
+	margin-top: 28px;
+}
+.service-bd p {
+	width: 236px;
+	margin: 0 auto 41px;
+	color: #666666;
+	font-size: 14px;
+}
+.service-bd a {
+	display: block;
+	width: 150px;
+	height: 40px;
+	border: 1px solid #ff9412;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	color: #ff9412;
+	border-radius: 5px;
+}
+.service-bd a:hover {
+	background-color: #ff9412;
+	color: #ffffff;
+}
+/* 我们的服务结束 */
+/* 经典案例开始 */
+.case-hd {
+	width: 1000px;
+	height: 80px;
+	border-top: 1px solid #cccccc;
+	margin: 0 auto;
+}
+.case-hd img {
+	margin: 0 auto;
+	display: block;
+	margin-top: -30px;
+
+}
+.case-bd {
+	width: 1050px;
+	height: 210px;
+	margin: 0 auto;
+}
+
+.case-bd li a {
+	float: left;
+	position: relative;
+}
+.mask {
+	width: 100%;
+	height: 100%;
+	background: rgba( 0, 0, 0, .3) url(../images/hover.png) no-repeat center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+a:hover .mask {
+	display: block;
+}
+
+
+.case-bd li.case-two {
+	margin: 0 32px;
+}
+/* 底部导航开始 */
+.bottom {
+	height: 140px;
+	background-color: #212425;
+	margin-top: 100px;
+	border-top: 1px solid #212425;
+}
+.bottom ul {
+	margin: 30px auto 20px;
+	width: 750px;
+	height: 50px;
+
+}
+
+.bottom  li {
+	line-height: 50px;
+	float: left;
+	display: block;
+
+}
+.bottom a {
+	color: #f0f1f1;
+	text-decoration: none;
+	padding: 0 15px;
+}
+.bottom a:hover {
+	text-decoration: underline;
+	color: #2288f6;
+}
+.bottom p {
+	width: 600px;
+	margin: 0 auto;	
+	color: #888888;
+	line-height: 30px;
+
+}
+/* 总体结构结束 */
+.huat {
+ position: fixed;
+ left: 0;
+ top: 40%;
+ width: 100px;
+}  /* huat小图标 */
